@@ -10,37 +10,37 @@ app.use(express.json());
 // === Sample Questions by Category ===
 const questions = {
   easy: [
-    "What’s your favorite color?",
-    "What’s your dream vacation spot?",
-    "If you could eat one food forever, what would it be?",
-    "What’s your go-to comfort show or movie?",
+    "How are you?",
+    "How are you enjoying your time here?",
+    "Are you fluent in the language you've been learning?",
+    "How's work",
+    "How's your family?",
   ],
   medium: [
-    "Describe your perfect day.",
-    "If you could switch jobs with anyone, who would it be?",
-    "What hobby would you love to master?",
-    "What’s something you recently learned that surprised you?",
+    "Of all the countries you've travelled to, which one did you fall in love the most? Were any core memories formed?",
+    "Do you like your job?",
+    "Where do you see yourself in 5 years?",
   ],
   hard: [
-    "What motivates you the most in tough times?",
-    "What’s your biggest life lesson so far?",
-    "When was the last time you truly stepped out of your comfort zone?",
+    "What is the proudest thing that you've achieved so far?",
+    "Describe one of your lowest moments so far?",
+    "How did you feel building up to the date of flying back here? What about now?",
+    "Has there been any repriotisation in your priorities or life mindset?"
   ],
   "quite-tough": [
-    "What’s the hardest decision you’ve ever made?",
-    "What fear have you overcome recently?",
-    "What failure taught you the most valuable lesson?",
+    "Bublub",
   ],
   dangerous: [
-    "Take a deep breath and relax. You deserve it 😌",
-    "Stretch for a minute and grab some water!",
-    "It’s break time — smile at someone nearby 😄",
+    "This information is unavailable. Please request directly"
   ],
   break: [
     "Have a round of cards ♠️♥️♣️♦️",
-    "Scroll through your gallery to the period of October 2024. Choose a picture and talk about it 🤓",
+    "Scroll through your gallery to the period of December 2024. Choose a picture and talk about it 🤓",
     "The person in front of you has to show you a magic trick 🪄",
-    "State a random fact"
+    "Drink water",
+    "Take a deep breath and relax. You deserve it 😌",
+    "Stretch for a minute and grab some water!",
+    "It’s break time — smile at someone nearby 😄",
   ],
 };
 
